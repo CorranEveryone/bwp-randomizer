@@ -40,7 +40,7 @@
 import random
 
 # CONFIG
-gamemode = "Bedwars Normal" # Pick a gamemode from above
+gamemode = "Bedwars Late Game" # Pick a gamemode from above
 playerrank = "Master" # Your rank should either be "Member", "Adept", "Expert", and "Master" (Anyone above just use Master)
 
 # CODE
@@ -1135,6 +1135,87 @@ elif gamemode == "Flat Fight":
         {"name":"Allow Chat"},
         {"name":"Start game tweak message"},
         {"name":"Kill Messages"}
+    ]
+elif gamemode == "Bedwars Normal":
+    fullpages = 2
+    lastpage_fullrows = 0
+    lastrow_items = 3
+    itemdefs = [
+        {"name":"Wool Count"},
+        {"name":"Knockback Stick", "rank":"Adept"},
+        {"name":"Bow"},
+        {"name":"Arrows"},
+        {"name":"Use shears"},
+        {"name":"Ender Pearls", "rank":"Expert"},
+        {"name":"Sword Tier"},
+        {"name":"Sword Sharpness"},
+        {"name":"Armour Tier"},
+        {"name":"Ladders", "rank":"Adept"},
+        {"name":"Fireballs", "rank":"Adept"},
+        {"name":"TNT", "rank":"Adept"},
+        {"name":"Random Item Bonus", "rank":"Master", "note":"I actually have no clue what this does, if you can tell me, that would be great."},
+        {"name":"Bridge Eggs", "rank":"Expert"},
+        {"name":"Iron Golems", "rank":"Expert"},
+        {"name":"Fishing Rods", "rank":"Adept"},
+        {"name":"Snow Balls / Silverfish", "rank":"Adept"},
+        {"name":"Juke Box", "rank":"Master"},
+        {"name":"Pop up towers", "rank":"Expert"},
+        {"name":"Fireball Bow", "rank":"Master"},
+        {"name":"Rapid Fire", "rank":"Master"},
+        {"name":"Aimbot", "rank":"Master"},
+        {"name":"Emerald Gen Speed", "rank":"Adept"},
+        {"name":"Diamond Gen Speed", "rank":"Adept"},
+        {"name":"Starting Diamonds", "rank":"Adept"},
+        {"name":"Forge Speed", "rank":"Adept"},
+        {"name":"Golden Apple on Kill", "rank":"Expert"},
+        {"name":"Summon ender dragon on Start", "rank":"Master"},
+        {"name":"Ender Dragon Block Destruction"},
+        {"name":"Combo PVP (no hit delay)", "rank":"Master", "note":"Don't stand in fire"},
+        {"name":"Respawn Length"},
+        {"name":"Instant Block Break", "rank":"Adept"},
+        {"name":"Allow Map to be Broken", "rank":"Master"},
+        {"name":"Allow Placements Anywhere", "rank":"Master"},
+        {"name":"Double Jump", "rank":"Expert"},
+        {"name":"Double Jump Power", "rank":"Master"},
+        {"name":"Kill Effects", "rank":"Expert"},
+        {"name":"Rising Lava", "rank":"Master"},
+        {"name":"Falling anvils", "rank":"Master"},
+        {"name":"Random Enderpearls", "rank":"Master"},
+        {"name":"Random MLG Clutch", "rank":"Master"},
+        {"name":"MLG Clutch Mode", "rank":"Master"},
+        {"name":"Random TNT Spawns", "rank":"Master"},
+        {"name":"Chicken Head", "rank":"Master"},
+        {"name":"OP Shop Items", "rank":"Master"},
+        {"name":"Mob Shop Items", "rank":"Expert"},
+        {"name":"Wool Allergy", "rank":"Master"},
+        {"name":"OP Generators", "rank":"Master"},
+        {"name":"Random Potion Effects", "rank":"Master"},
+        {"name":"Timed Effects", "rank":"Master"},
+        {"name":"Random Health", "rank":"Master"},
+        {"name":"Random Health Range", "rank":"Master"},
+        {"name":"Desync Health", "rank":"Master"},
+        {"name":"Life Steal", "rank":"Expert", "note":"Due to bugs, this option can cause softlocks when a player runs out of hearts before their bed is destroyed. They will count as alive even though they have been long since been Final killed. ENABLE AT YOUR OWN RISK."},
+        {"name":"Bed Defence", "rank":"Adept"},
+        {"name":"Click Reducer"},
+        {"name":"Allow Crafting", "rank":"Master"},
+        {"name":"Random Block Placing", "rank":"Adept", "note":"Good luck placing blocks"},
+        {"name":"Random Item Drops", "rank":"Adept"},
+        {"name":"Random Item On Kill", "rank":"Adept"},
+        {"name":"XP Level"},
+        {"name":"Allow Armour Swapping"},
+        {"name":"Create bedrock walls", "rank":"Master", "note":"Set it to 1 minute or disable if already set to 1 minute. DO NOT SET IT TO 20 MINUTES, YOU WILL NOT BE ABLE TO DO ANYTHING."},
+        {"name":"Explosion Power", "rank":"Expert"},
+        {"name":"Jump Boost Effect", "rank":"Adept"},
+        {"name":"Speed Effect", "rank":"Adept"},
+        {"name":"Blindness Effect", "rank":"Expert"},
+        {"name":"Health", "rank":"Expert"},
+        {"name":"Fall Damage"},
+        {"name":"Spawn protection time"},
+        {"name":"Allow Chat"},
+        {"name":"Start game tweak message"},
+        {"name":"Kill Messages"},
+        {"name":"Allow Projectiles", "rank":"Adept"},
+        {"name":"Increased Diamond Costs", "rank":"Adept"}
     ]
 elif gamemode == "Bedwars Normal":
     fullpages = 2

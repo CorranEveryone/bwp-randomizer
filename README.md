@@ -27,7 +27,7 @@
 - [x] Ladder Fight
 - [x] Flat Fight
 - [x] Bedwars Normal
-- [ ] Bedwars Late Game
+- [x] Bedwars Late Game
 - [ ] Bedwars Mega
 - [ ] Bedwalls (Note to me, this mode requires Master rank)
 - [ ] Ranked Fours Practice
