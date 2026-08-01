@@ -1848,9 +1848,9 @@ elif gamemode == "Bedwars Rush Duels":
     ]
 elif gamemode == "Sky Conquer":
     if playerrank == "Master":
-        fullpages = 2
-        lastpage_fullrows = 0
-        lastrow_items = 3
+        fullpages = 1
+        lastpage_fullrows = 1
+        lastrow_items = 4
         itemdefs = [
             {"name":"Wool Count"},
             {"name":"Knockback Stick", "rank":"Adept"},
