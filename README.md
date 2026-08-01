@@ -23,7 +23,7 @@
 - [x] Beta Sumo
 - [x] Bow Fight
 - [x] Pearl Fight
-- [ ] Bed Rush
+- [x] Bed Rush
 - [ ] Ladder Fight
 - [ ] Flat Fight
 - [ ] Bedwars Normal
