@@ -22,7 +22,7 @@
 - [x] Party Games
 - [x] Beta Sumo
 - [x] Bow Fight
-- [ ] Pearl Fight
+- [x] Pearl Fight
 - [ ] Bed Rush
 - [ ] Ladder Fight
 - [ ] Flat Fight
