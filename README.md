@@ -29,7 +29,7 @@
 - [x] Bedwars Normal
 - [x] Bedwars Late Game
 - [x] Bedwars Mega
-- [ ] Bedwalls (Note to me, this mode requires Master rank)
+- [x] Bedwalls
 - [ ] Ranked Fours Practice
 - [x] Bedwars Eight Team (Redo Item Defs)
 - [x] Bedwars Four Team (Redo Item Defs)
