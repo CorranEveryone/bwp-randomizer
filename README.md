@@ -5,7 +5,7 @@
 ## How to use
 - Download the script `main.py` and open it up in an editor (I'd suggest [Visual Studio Code](https://code.visualstudio.com/) because it can also run the file)
 - Configure your Gamemode and Rank then run it to get your randomly selected tweaks!
-## Todo
+## Gamemodes Todo
 - [ ] Bed Bridge Fight
 - [ ] Four Way Bridge Fight
 - [ ] Competitive Bridge
@@ -29,9 +29,12 @@
 - [ ] Bedwars Mega
 - [ ] Bedwalls
 - [ ] Ranked Fours Practice
-- [ ] Bedwars Eight Team (Redo Item Defs)
-- [ ] Bedwars Four Team (Redo Item Defs)
+- [x] Bedwars Eight Team (Redo Item Defs)
+- [x] Bedwars Four Team (Redo Item Defs)
 - [ ] Miniwars
 - [ ] Bedwars Rush Duels
 - [ ] Sky Conquer
 - [ ] Autobox
+## Features to implement in the future
+- [ ] Utilize Catagories
+- [ ] GUI (Likely through TKinter)

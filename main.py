@@ -33,8 +33,8 @@
 #   Bedwars Mega (x)
 #   Bedwalls (x)
 #   Ranked Fours Practice (x)
-#   Bedwars Eight Team (!)
-#   Bedwars Four Team (!)
+#   Bedwars Eight Team
+#   Bedwars Four Team
 #   Miniwars (x)
 #   Bedwars Rush Duels (x)
 #   Sky Conquer (x)
@@ -55,13 +55,6 @@ if gamemode == "Bedwars 4 Teams":
     fullpages = 2
     lastpage_fullrows = 0
     lastrow_items = 4
-    itemnames = ["Wool Count", "Knockback Stick", "Bow", "Arrows", "Use shears", "Ender Pearls", "Sword Tier", "Sword Sharpness", "Armour Tier", "Ladders", "Fireballs", "TNT", "Random Item Bonus", "Bridge Eggs", "Iron Golems", "Fishing Rods", "Snow Balls / Silverfish", "Juke Box", "Pop up towers", "Fireball Bow", "Rapid Fire", "Aimbot", "Emerald Gen Speed", "Diamond Gen Speed", "Starting Diamonds", "Forge Speed", "Golden Apple on Kill", "Summon ender dragon on Start", "Ender Dragon Block Destruction", "Combo PVP (no hit delay)", "Respawn Length", "Instant Block Break", "Allow Map to be Broken", "Allow Placements Anywhere", "Double Jump", "Double Jump Power", "Kill Effects", "Rising Lava", "Falling anvils", "Random Enderpearls", "Random MLG Clutch", "MLG Clutch Mode", "Random TNT Spawns", "Chicken Head", "OP Shop Items", "Mob Shop Items", "Wool Allergy (Not Recommended for this)", "OP Generators", "Random Potion Effect", "Timed Effects", "Random Health", "Random Health Range", "Desync Health", "Life Steal [Can lead to softlocks]", "Bed Defence", "Click Reducer", "Allow Crafting", "Random Block Placing", "Random Item Drops", "Random Item On Kill", "XP Level", "Allow Armour Swapping", "Create bedrock walls [SET TO 1 MINUTE OR DISABLED, YOU DO NOT WANT TO WAIT 20 MINUTES, TRUST]", "Explosion Power", "Jump Boost Effect", "Speed Effect", "Blindness Effect", "Health", "Fall Damage", "Spawn protection time", "Allow Chat", "Start game tweak message", "Kill Messages", "Allow Projectiles", "Increased Diamond Costs", "Convert Eight-team Maps"]
-    itemdefs = []
-elif gamemode == "Bedwars 8 Teams":
-    fullpages = 2
-    lastpage_fullrows = 0
-    lastrow_items = 4
-    itemnames = ["Wool Count", "Knockback Stick", "Bow", "Arrows", "Use shears", "Ender Pearls", "Sword Tier", "Sword Sharpness", "Armour Tier", "Ladders", "Fireballs", "TNT", "Random Item Bonus", "Bridge Eggs", "Iron Golems", "Fishing Rods", "Snow Balls / Silverfish", "Juke Box", "Pop up towers", "Fireball Bow", "Rapid Fire", "Aimbot", "Emerald Gen Speed", "Diamond Gen Speed", "Starting Diamonds", "Forge Speed", "Golden Apple on Kill", "Summon ender dragon on Start", "Ender Dragon Block Destruction", "Combo PVP (no hit delay)", "Respawn Length", "Instant Block Break", "Allow Map to be Broken", "Allow Placements Anywhere", "Double Jump", "Double Jump Power", "Kill Effects", "Rising Lava", "Falling anvils", "Random Enderpearls", "Random MLG Clutch", "MLG Clutch Mode", "Random TNT Spawns", "Chicken Head", "OP Shop Items", "Mob Shop Items", "Wool Allergy (Not recommended for this)", "OP Generators", "Random Potion Effect", "Timed Effects", "Random Health", "Random Health Range", "Desync Health", "Life Steal [Can lead to softlocks]", "Bed Defence", "Elemental Bedwars", "Click Reducer", "Allow Crafting", "Random Block Placing", "Random Item Drops", "Random Item On Kill", "XP Level", "Allow Armour Swapping", "Create bedrock walls [SET TO 1 MINUTE OR DISABLED, YOU DO NOT WANT TO WAIT 20 MINUTES, TRUST]", "Explosion Power", "Jump Boost Effect", "Speed Effect", "Blindness Effect", "Health", "Fall Damage", "Spawn protection time", "Allow Chat", "Start game tweak message", "Kill Messages", "Allow Projectiles", "Increased Diamond Costs"]
     itemdefs = [
         {"name":"Wool Count"},
         {"name":"Knockback Stick", "rank":"Adept"},
@@ -75,7 +68,7 @@ elif gamemode == "Bedwars 8 Teams":
         {"name":"Ladders", "rank":"Adept"},
         {"name":"Fireballs", "rank":"Adept"},
         {"name":"TNT", "rank":"Adept"},
-        {"name":"Random Item Bonus", "rank":"Master", "note":"It's random item on kill, not like the Random Ender Pearls."},
+        {"name":"Random Item Bonus", "rank":"Master", "note":"I actually have no clue what this does, if you can tell me, that would be great."},
         {"name":"Bridge Eggs", "rank":"Expert"},
         {"name":"Iron Golems", "rank":"Expert"},
         {"name":"Fishing Rods", "rank":"Adept"},
@@ -98,8 +91,130 @@ elif gamemode == "Bedwars 8 Teams":
         {"name":"Allow Map to be Broken", "rank":"Master"},
         {"name":"Allow Placements Anywhere", "rank":"Master"},
         {"name":"Double Jump", "rank":"Expert"},
-        {"name":"Double Jump Power", "rank":"Master"}
-        ]
+        {"name":"Double Jump Power", "rank":"Master"},
+        {"name":"Kill Effects", "rank":"Expert"},
+        {"name":"Rising Lava", "rank":"Master"},
+        {"name":"Falling anvils", "rank":"Master"},
+        {"name":"Random Enderpearls", "rank":"Master"},
+        {"name":"Random MLG Clutch", "rank":"Master"},
+        {"name":"MLG Clutch Mode", "rank":"Master"},
+        {"name":"Random TNT Spawns", "rank":"Master"},
+        {"name":"Chicken Head", "rank":"Master"},
+        {"name":"OP Shop Items", "rank":"Master"},
+        {"name":"Mob Shop Items", "rank":"Expert"},
+        {"name":"Wool Allergy", "rank":"Master"},
+        {"name":"OP Generators", "rank":"Master"},
+        {"name":"Random Potion Effects", "rank":"Master"},
+        {"name":"Timed Effects", "rank":"Master"},
+        {"name":"Random Health", "rank":"Master"},
+        {"name":"Random Health Range", "rank":"Master"},
+        {"name":"Desync Health", "rank":"Master"},
+        {"name":"Life Steal", "rank":"Expert", "note":"Due to bugs, this option can cause softlocks when a player runs out of hearts before their bed is destroyed. They will count as alive even though they have been long since been Final killed. ENABLE AT YOUR OWN RISK."},
+        {"name":"Bed Defence", "rank":"Adept"},
+        {"name":"Click Reducer"},
+        {"name":"Allow Crafting", "rank":"Master"},
+        {"name":"Random Block Placing", "rank":"Adept", "note":"Good luck placing blocks"},
+        {"name":"Random Item Drops", "rank":"Adept"},
+        {"name":"Random Item On Kill", "rank":"Adept"},
+        {"name":"XP Level"},
+        {"name":"Allow Armour Swapping"},
+        {"name":"Create bedrock walls", "rank":"Master", "note":"Set it to 1 minute or disable if already set to 1 minute. DO NOT SET IT TO 20 MINUTES, YOU WILL NOT BE ABLE TO DO ANYTHING."},
+        {"name":"Explosion Power", "rank":"Expert"},
+        {"name":"Jump Boost Effect", "rank":"Adept"},
+        {"name":"Speed Effect", "rank":"Adept"},
+        {"name":"Blindness Effect", "rank":"Expert"},
+        {"name":"Health", "rank":"Expert"},
+        {"name":"Fall Damage"},
+        {"name":"Spawn protection time"},
+        {"name":"Allow Chat"},
+        {"name":"Start game tweak message"},
+        {"name":"Kill Messages"},
+        {"name":"Allow Projectiles", "rank":"Adept"},
+        {"name":"Increased Diamond Costs", "rank":"Adept"},
+        {"name":"Convert Eight-team Maps", "rank":"Master"}
+    ]
+elif gamemode == "Bedwars 8 Teams":
+    fullpages = 2
+    lastpage_fullrows = 0
+    lastrow_items = 4
+    itemdefs = [
+        {"name":"Wool Count"},
+        {"name":"Knockback Stick", "rank":"Adept"},
+        {"name":"Bow"},
+        {"name":"Arrows"},
+        {"name":"Use shears"},
+        {"name":"Ender Pearls", "rank":"Expert"},
+        {"name":"Sword Tier"},
+        {"name":"Sword Sharpness"},
+        {"name":"Armour Tier"},
+        {"name":"Ladders", "rank":"Adept"},
+        {"name":"Fireballs", "rank":"Adept"},
+        {"name":"TNT", "rank":"Adept"},
+        {"name":"Random Item Bonus", "rank":"Master", "note":"I actually have no clue what this does, if you can tell me, that would be great."},
+        {"name":"Bridge Eggs", "rank":"Expert"},
+        {"name":"Iron Golems", "rank":"Expert"},
+        {"name":"Fishing Rods", "rank":"Adept"},
+        {"name":"Snow Balls / Silverfish", "rank":"Adept"},
+        {"name":"Juke Box", "rank":"Master"},
+        {"name":"Pop up towers", "rank":"Expert"},
+        {"name":"Fireball Bow", "rank":"Master"},
+        {"name":"Rapid Fire", "rank":"Master"},
+        {"name":"Aimbot", "rank":"Master"},
+        {"name":"Emerald Gen Speed", "rank":"Adept"},
+        {"name":"Diamond Gen Speed", "rank":"Adept"},
+        {"name":"Starting Diamonds", "rank":"Adept"},
+        {"name":"Forge Speed", "rank":"Adept"},
+        {"name":"Golden Apple on Kill", "rank":"Expert"},
+        {"name":"Summon ender dragon on Start", "rank":"Master"},
+        {"name":"Ender Dragon Block Destruction"},
+        {"name":"Combo PVP (no hit delay)", "rank":"Master", "note":"Don't stand in fire"},
+        {"name":"Respawn Length"},
+        {"name":"Instant Block Break", "rank":"Adept"},
+        {"name":"Allow Map to be Broken", "rank":"Master"},
+        {"name":"Allow Placements Anywhere", "rank":"Master"},
+        {"name":"Double Jump", "rank":"Expert"},
+        {"name":"Double Jump Power", "rank":"Master"},
+        {"name":"Kill Effects", "rank":"Expert"},
+        {"name":"Rising Lava", "rank":"Master"},
+        {"name":"Falling anvils", "rank":"Master"},
+        {"name":"Random Enderpearls", "rank":"Master"},
+        {"name":"Random MLG Clutch", "rank":"Master"},
+        {"name":"MLG Clutch Mode", "rank":"Master"},
+        {"name":"Random TNT Spawns", "rank":"Master"},
+        {"name":"Chicken Head", "rank":"Master"},
+        {"name":"OP Shop Items", "rank":"Master"},
+        {"name":"Mob Shop Items", "rank":"Expert"},
+        {"name":"Wool Allergy", "rank":"Master"},
+        {"name":"OP Generators", "rank":"Master"},
+        {"name":"Random Potion Effects", "rank":"Master"},
+        {"name":"Timed Effects", "rank":"Master"},
+        {"name":"Random Health", "rank":"Master"},
+        {"name":"Random Health Range", "rank":"Master"},
+        {"name":"Desync Health", "rank":"Master"},
+        {"name":"Life Steal", "rank":"Expert", "note":"Due to bugs, this option can cause softlocks when a player runs out of hearts before their bed is destroyed. They will count as alive even though they have been long since been Final killed. ENABLE AT YOUR OWN RISK."},
+        {"name":"Bed Defence", "rank":"Adept"},
+        {"name":"Elemental Bedwars", "rank":"Master"},
+        {"name":"Click Reducer"},
+        {"name":"Allow Crafting", "rank":"Master"},
+        {"name":"Random Block Placing", "rank":"Adept", "note":"Good luck placing blocks"},
+        {"name":"Random Item Drops", "rank":"Adept"},
+        {"name":"Random Item On Kill", "rank":"Adept"},
+        {"name":"XP Level"},
+        {"name":"Allow Armour Swapping"},
+        {"name":"Create bedrock walls", "rank":"Master", "note":"Set it to 1 minute or disable if already set to 1 minute. DO NOT SET IT TO 20 MINUTES, YOU WILL NOT BE ABLE TO DO ANYTHING."},
+        {"name":"Explosion Power", "rank":"Expert"},
+        {"name":"Jump Boost Effect", "rank":"Adept"},
+        {"name":"Speed Effect", "rank":"Adept"},
+        {"name":"Blindness Effect", "rank":"Expert"},
+        {"name":"Health", "rank":"Expert"},
+        {"name":"Fall Damage"},
+        {"name":"Spawn protection time"},
+        {"name":"Allow Chat"},
+        {"name":"Start game tweak message"},
+        {"name":"Kill Messages"},
+        {"name":"Allow Projectiles", "rank":"Adept"},
+        {"name":"Increased Diamond Costs", "rank":"Adept"}
+    ]
 else: # Loaded Nothing
     print(f"'{gamemode}' is not a valid gamemode")
     exit()
