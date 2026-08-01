@@ -30,7 +30,7 @@
 - [x] Bedwars Late Game
 - [x] Bedwars Mega
 - [x] Bedwalls
-- [ ] Ranked Fours Practice
+- [x] Ranked Fours Practice
 - [x] Bedwars Eight Team (Redo Item Defs)
 - [x] Bedwars Four Team (Redo Item Defs)
 - [ ] Miniwars
