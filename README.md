@@ -8,7 +8,7 @@
 ## Contributing/Bug Reporting
 - If there is an issue or a mistake in Item Defintions, let me know via Issues or patch it yourself and send a PR.
 ## Gamemodes Todo
-- [ ] Bed Bridge Fight
+- [x] Bed Bridge Fight
 - [ ] Four Way Bridge Fight
 - [ ] Competitive Bridge
 - [ ] Obstacle
