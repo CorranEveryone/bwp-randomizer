@@ -24,7 +24,7 @@
 - [x] Bow Fight
 - [x] Pearl Fight
 - [x] Bed Rush
-- [ ] Ladder Fight
+- [x] Ladder Fight
 - [ ] Flat Fight
 - [ ] Bedwars Normal
 - [ ] Bedwars Late Game
