@@ -13,7 +13,7 @@
 #   Bed Bridge Fight
 #   Four Way Bridge Fight
 #   Competitive Bridge
-#   Obstacle (x)
+#   Obstacle
 #   Sumo (x)
 #   Sumo Duels (x)
 #   Ground Duel (x)
@@ -44,7 +44,7 @@
 import random
 
 # CONFIG
-gamemode = "Competitive Bridge" # Pick a gamemode from above
+gamemode = "Obstacle" # Pick a gamemode from above
 playerrank = "Master" # Your rank should either be "Member", "Adept", "Expert", and "Master" (Anyone above just use Master)
 
 # CODE
@@ -202,6 +202,64 @@ elif gamemode == "Competitive Bridge":
         {"name":"Fishing Rods", "rank":"Adept"},
         {"name":"Snow Balls / Silverfish", "rank":"Adept"},
         {"name":"Juke Box", "rank":"Master"},
+        {"name":"Fireball Bow", "rank":"Master"},
+        {"name":"Rapid Fire", "rank":"Master"},
+        {"name":"Aimbot", "rank":"Master"},
+        {"name":"Golden Apple on Kill", "rank":"Expert"},
+        {"name":"Summon ender dragon on Start", "rank":"Master"},
+        {"name":"Ender Dragon Block Destruction"},
+        {"name":"Combo PVP (no hit delay)", "rank":"Master", "note":"Don't stand in fire"},
+        {"name":"Respawn Length"},
+        {"name":"Instant Block Break", "rank":"Adept"},
+        {"name":"Allow Map to be Broken", "rank":"Master"},
+        {"name":"Allow Placements Anywhere", "rank":"Master"},
+        {"name":"Double Jump", "rank":"Expert"},
+        {"name":"Double Jump Power", "rank":"Master"},
+        {"name":"Kill Effects", "rank":"Expert"},
+        {"name":"Random Potion Effects", "rank":"Master"},
+        {"name":"Timed Effects", "rank":"Master"},
+        {"name":"Random Health", "rank":"Master"},
+        {"name":"Random Health Range", "rank":"Master"},
+        {"name":"Desync Health", "rank":"Master"},
+        {"name":"Click Reducer"},
+        {"name":"Allow Crafting", "rank":"Master"},
+        {"name":"Random Block Placing", "rank":"Adept", "note":"Good luck placing blocks"},
+        {"name":"XP Level"},
+        {"name":"Allow Armour Swapping"},
+        {"name":"Explosion Power", "rank":"Expert"},
+        {"name":"Jump Boost Effect", "rank":"Adept"},
+        {"name":"Speed Effect", "rank":"Adept"},
+        {"name":"Blindness Effect", "rank":"Expert"},
+        {"name":"Health", "rank":"Expert"},
+        {"name":"Fall Damage"},
+        {"name":"Spawn protection time"},
+        {"name":"Allow Chat"},
+        {"name":"Start game tweak message"},
+        {"name":"Kill Messages"}
+    ]
+elif gamemode == "Obstacle":
+    fullpages = 1
+    lastpage_fullrows = 1
+    lastrow_items = 7
+    itemdefs = [
+        {"name":"Knockback Stick", "rank":"Adept"},
+        {"name":"Bow"},
+        {"name":"Arrows"},
+        {"name":"Use shears"},
+        {"name":"Ender Pearls", "rank":"Expert"},
+        {"name":"Sword Tier"},
+        {"name":"Sword Sharpness"},
+        {"name":"Armour Tier"},
+        {"name":"Ladders", "rank":"Adept"},
+        {"name":"Fireballs", "rank":"Adept"},
+        {"name":"Random Item Bonus", "rank":"Master", "note":"I actually have no clue what this does, if you can tell me, that would be great."},
+        {"name":"Fishing Rods", "rank":"Adept"},
+        {"name":"Snow Balls / Silverfish", "rank":"Adept"},
+        {"name":"Juke Box", "rank":"Master"},
+        {"name":"Obstacles Side Walls"},
+        {"name":"Obstacles Roof"},
+        {"name":"Number of Obstacle Segments"},
+        {"name":"Win Condition"},
         {"name":"Fireball Bow", "rank":"Master"},
         {"name":"Rapid Fire", "rank":"Master"},
         {"name":"Aimbot", "rank":"Master"},
@@ -439,7 +497,7 @@ while randomrow > rowsperpage:
     randomrow -= rowsperpage
     randompage += 1
 
-print(f"#{randomvalue}")
+print(f"#{randomvalue} in {gamemode}")
 print()
 print(f"Page: {randompage}")
 print(f"Row: {randomrow}")
