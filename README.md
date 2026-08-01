@@ -21,7 +21,7 @@
 - [x] Stick Fight
 - [x] Party Games
 - [x] Beta Sumo
-- [ ] Bow Fight
+- [x] Bow Fight
 - [ ] Pearl Fight
 - [ ] Bed Rush
 - [ ] Ladder Fight
