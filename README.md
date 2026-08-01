@@ -34,7 +34,7 @@
 - [x] Bedwars Eight Team (Redo Item Defs)
 - [x] Bedwars Four Team (Redo Item Defs)
 - [x] Miniwars
-- [ ] Bedwars Rush Duels
+- [x] Bedwars Rush Duels
 - [ ] Sky Conquer (Note to me, this mode requires Master rank)
 - [ ] Autobox
 ## Features to implement in the future
