@@ -14,7 +14,7 @@
 - [x] Obstacle
 - [x] Sumo
 - [x] Sumo Duels
-- [ ] Ground Duel
+- [x] Ground Duel
 - [ ] Resource Collect
 - [ ] Old Resource Collect
 - [ ] Void Fight
