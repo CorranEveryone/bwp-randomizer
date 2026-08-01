@@ -38,5 +38,6 @@
 - [ ] Sky Conquer
 - [ ] Autobox
 ## Features to implement in the future
+- [ ] Combine Lists into one full list instead of one list per gamemode (As part of code optimization, just wanna get a fully working version with what I'm currently doing before I do.)
 - [ ] Utilize Catagories
 - [ ] GUI (Likely through TKinter)
