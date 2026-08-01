@@ -11,7 +11,7 @@
 - [x] Bed Bridge Fight
 - [x] Four Way Bridge Fight
 - [x] Competitive Bridge
-- [ ] Obstacle
+- [x] Obstacle
 - [ ] Sumo
 - [ ] Sumo Duels
 - [ ] Ground Duel
