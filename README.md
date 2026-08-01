@@ -35,7 +35,7 @@
 - [x] Bedwars Four Team (Redo Item Defs)
 - [x] Miniwars
 - [x] Bedwars Rush Duels
-- [ ] Sky Conquer (Note to me, this mode requires Master rank)
+- [x] Sky Conquer
 - [ ] Autobox
 ## Features to implement in the future
 - [ ] Combine Lists into one full list instead of one list per gamemode (As part of code optimization, just wanna get a fully working version with what I'm currently doing before I do.)
