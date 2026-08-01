@@ -5,6 +5,8 @@
 ## How to use
 - Download the script `main.py` and open it up in an editor (I'd suggest [Visual Studio Code](https://code.visualstudio.com/) because it can also run the file)
 - Configure your Gamemode and Rank then run it to get your randomly selected tweaks!
+## Contributing/Bug Reporting
+- If there is an issue or a mistake in Item Defintions, let me know via Issues or patch it yourself and send a PR.
 ## Gamemodes Todo
 - [ ] Bed Bridge Fight
 - [ ] Four Way Bridge Fight
