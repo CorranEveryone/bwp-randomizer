@@ -18,7 +18,7 @@
 - [x] Resource Collect
 - [x] Old Resource Collect
 - [x] Void Fight
-- [ ] Stick Fight
+- [x] Stick Fight
 - [ ] Party Games
 - [ ] Beta Sumo
 - [ ] Bow Fight

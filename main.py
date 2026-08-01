@@ -5,10 +5,6 @@
 #| |_/ /\  /\  / |     | |\ \ (_| | | | | (_| | (_) | | | | | | |/ /  __/ |   
 #\____/  \/  \/\_|     \_| \_\__,_|_| |_|\__,_|\___/|_| |_| |_|_/___\___|_|   
 #
-# Legend:
-#   (x) = Not Implemented
-#   (!) = Outdated Implementations
-#
 # Gamemodes:
 #   Bed Bridge Fight
 #   Four Way Bridge Fight
@@ -20,31 +16,31 @@
 #   Resource Collect
 #   Old Resource Collect
 #   Void Fight
-#   Stick Fight (x)
-#   Party Games (x)
-#   Beta Sumo (x)
-#   Bow Fight (x)
-#   Pearl Fight (x)
-#   Bed Rush (x)
-#   Ladder Fight (x)
-#   Flat Fight (x)
-#   Bedwars Normal (x)
-#   Bedwars Late Game (x)
-#   Bedwars Mega (x)
-#   Bedwalls (x)
-#   Ranked Fours Practice (x)
+#   Stick Fight
+#   Party Games
+#   Beta Sumo
+#   Bow Fight
+#   Pearl Fight
+#   Bed Rush
+#   Ladder Fight
+#   Flat Fight
+#   Bedwars Normal
+#   Bedwars Late Game
+#   Bedwars Mega
+#   Bedwalls
+#   Ranked Fours Practice
 #   Bedwars Eight Team
 #   Bedwars Four Team
-#   Miniwars (x)
-#   Bedwars Rush Duels (x)
-#   Sky Conquer (x)
-#   Autobox (x)
+#   Miniwars
+#   Bedwars Rush Duels
+#   Sky Conquer
+#   Autobox
 #
 
 import random
 
 # CONFIG
-gamemode = "Void Fight" # Pick a gamemode from above
+gamemode = "Stick Fight" # Pick a gamemode from above
 playerrank = "Master" # Your rank should either be "Member", "Adept", "Expert", and "Master" (Anyone above just use Master)
 
 # CODE
@@ -640,6 +636,62 @@ elif gamemode == "Void Fight":
         {"name":"XP Level"},
         {"name":"Allow Armour Swapping"},
         {"name":"Create bedrock walls", "rank":"Master", "note":"Set it to 1 minute or disable if already set to 1 minute. DO NOT SET IT TO 20 MINUTES, YOU WILL NOT BE ABLE TO DO ANYTHING."},
+        {"name":"Explosion Power", "rank":"Expert"},
+        {"name":"Jump Boost Effect", "rank":"Adept"},
+        {"name":"Speed Effect", "rank":"Adept"},
+        {"name":"Blindness Effect", "rank":"Expert"},
+        {"name":"Health", "rank":"Expert"},
+        {"name":"Fall Damage"},
+        {"name":"Spawn protection time"},
+        {"name":"Allow Chat"},
+        {"name":"Start game tweak message"},
+        {"name":"Kill Messages"}
+    ]
+elif gamemode == "Stick Fight":
+    fullpages = 1
+    lastpage_fullrows = 1
+    lastrow_items = 5
+    itemdefs = [
+        {"name":"Wool Count"},
+        {"name":"Knockback Stick", "rank":"Adept"},
+        {"name":"Bow"},
+        {"name":"Arrows"},
+        {"name":"Use shears"},
+        {"name":"Ender Pearls", "rank":"Expert"},
+        {"name":"Sword Tier"},
+        {"name":"Sword Sharpness"},
+        {"name":"Armour Tier"},
+        {"name":"Ladders", "rank":"Adept"},
+        {"name":"Fireballs", "rank":"Adept"},
+        {"name":"Random Item Bonus", "rank":"Master", "note":"I actually have no clue what this does, if you can tell me, that would be great."},
+        {"name":"Fishing Rods", "rank":"Adept"},
+        {"name":"Snow Balls / Silverfish", "rank":"Adept"},
+        {"name":"Juke Box", "rank":"Master"},
+        {"name":"Number of Lives"},
+        {"name":"Fireball Bow", "rank":"Master"},
+        {"name":"Rapid Fire", "rank":"Master"},
+        {"name":"Aimbot", "rank":"Master"},
+        {"name":"Golden Apple on Kill", "rank":"Expert"},
+        {"name":"Summon ender dragon on Start", "rank":"Master"},
+        {"name":"Ender Dragon Block Destruction"},
+        {"name":"Combo PVP (no hit delay)", "rank":"Master", "note":"Don't stand in fire"},
+        {"name":"Respawn Length"},
+        {"name":"Instant Block Break", "rank":"Adept"},
+        {"name":"Allow Map to be Broken", "rank":"Master"},
+        {"name":"Allow Placements Anywhere", "rank":"Master"},
+        {"name":"Double Jump", "rank":"Expert"},
+        {"name":"Double Jump Power", "rank":"Master"},
+        {"name":"Kill Effects", "rank":"Expert"},
+        {"name":"Random Potion Effects", "rank":"Master"},
+        {"name":"Timed Effects", "rank":"Master"},
+        {"name":"Random Health", "rank":"Master"},
+        {"name":"Random Health Range", "rank":"Master"},
+        {"name":"Desync Health", "rank":"Master"},
+        {"name":"Click Reducer"},
+        {"name":"Allow Crafting", "rank":"Master"},
+        {"name":"Random Block Placing", "rank":"Adept", "note":"Good luck placing blocks"},
+        {"name":"XP Level"},
+        {"name":"Allow Armour Swapping"},
         {"name":"Explosion Power", "rank":"Expert"},
         {"name":"Jump Boost Effect", "rank":"Adept"},
         {"name":"Speed Effect", "rank":"Adept"},
