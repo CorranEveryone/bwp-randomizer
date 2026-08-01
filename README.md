@@ -10,7 +10,7 @@
 ## Gamemodes Todo
 - [x] Bed Bridge Fight
 - [x] Four Way Bridge Fight
-- [ ] Competitive Bridge
+- [x] Competitive Bridge
 - [ ] Obstacle
 - [ ] Sumo
 - [ ] Sumo Duels
