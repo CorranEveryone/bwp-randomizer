@@ -266,8 +266,8 @@ try:
     except KeyError:
         pass
 except IndexError:
-    try:
-        print(itemnames[randomvalue-1])
-        print("Item is not using an Item Definition, it is possible to be locked behind a rank.")
-    except IndexError:
-        print("ERROR, ITEM NAME AND DEFINITION NOT FOUND")
+    print(f"ERROR: ITEM DEFINITION NOT FOUND ({randomvalue})")
+    print(f"Gamemode: {gamemode}")
+    print(f"Player Rank: {playerrank}")
+    print("Item Definition Dump:")
+    print(itemdefs)
