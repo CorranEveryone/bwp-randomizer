@@ -19,7 +19,7 @@
 - [x] Old Resource Collect
 - [x] Void Fight
 - [x] Stick Fight
-- [ ] Party Games
+- [x] Party Games
 - [ ] Beta Sumo
 - [ ] Bow Fight
 - [ ] Pearl Fight
