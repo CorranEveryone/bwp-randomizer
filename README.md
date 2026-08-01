@@ -12,8 +12,8 @@
 - [x] Four Way Bridge Fight
 - [x] Competitive Bridge
 - [x] Obstacle
-- [ ] Sumo
-- [ ] Sumo Duels
+- [x] Sumo
+- [x] Sumo Duels
 - [ ] Ground Duel
 - [ ] Resource Collect
 - [ ] Old Resource Collect
