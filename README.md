@@ -26,16 +26,16 @@
 - [x] Bed Rush
 - [x] Ladder Fight
 - [x] Flat Fight
-- [ ] Bedwars Normal
+- [x] Bedwars Normal
 - [ ] Bedwars Late Game
 - [ ] Bedwars Mega
-- [ ] Bedwalls
+- [ ] Bedwalls (Note to me, this mode requires Master rank)
 - [ ] Ranked Fours Practice
 - [x] Bedwars Eight Team (Redo Item Defs)
 - [x] Bedwars Four Team (Redo Item Defs)
 - [ ] Miniwars
 - [ ] Bedwars Rush Duels
-- [ ] Sky Conquer
+- [ ] Sky Conquer (Note to me, this mode requires Master rank)
 - [ ] Autobox
 ## Features to implement in the future
 - [ ] Combine Lists into one full list instead of one list per gamemode (As part of code optimization, just wanna get a fully working version with what I'm currently doing before I do.)
