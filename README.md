@@ -28,7 +28,7 @@
 - [x] Flat Fight
 - [x] Bedwars Normal
 - [x] Bedwars Late Game
-- [ ] Bedwars Mega
+- [x] Bedwars Mega
 - [ ] Bedwalls (Note to me, this mode requires Master rank)
 - [ ] Ranked Fours Practice
 - [x] Bedwars Eight Team (Redo Item Defs)
