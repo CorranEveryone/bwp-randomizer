@@ -20,7 +20,7 @@
 - [x] Void Fight
 - [x] Stick Fight
 - [x] Party Games
-- [ ] Beta Sumo
+- [x] Beta Sumo
 - [ ] Bow Fight
 - [ ] Pearl Fight
 - [ ] Bed Rush
