@@ -9,7 +9,7 @@
 - If there is an issue or a mistake in Item Defintions, let me know via Issues or patch it yourself and send a PR.
 ## Gamemodes Todo
 - [x] Bed Bridge Fight
-- [ ] Four Way Bridge Fight
+- [x] Four Way Bridge Fight
 - [ ] Competitive Bridge
 - [ ] Obstacle
 - [ ] Sumo
