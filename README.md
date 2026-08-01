@@ -7,7 +7,7 @@
 - Configure your Gamemode and Rank then run it to get your randomly selected tweaks!
 ## Contributing/Bug Reporting
 - If there is an issue or a mistake in Item Defintions, let me know via Issues or patch it yourself and send a PR.
-## Gamemodes Todo
+## Gamemodes Todo (COMPLETE)
 - [x] Bed Bridge Fight
 - [x] Four Way Bridge Fight
 - [x] Competitive Bridge
@@ -36,7 +36,7 @@
 - [x] Miniwars
 - [x] Bedwars Rush Duels
 - [x] Sky Conquer
-- [ ] Autobox
+- [x] Autobox
 ## Features to implement in the future
 - [ ] Combine Lists into one full list instead of one list per gamemode (As part of code optimization, just wanna get a fully working version with what I'm currently doing before I do.)
 - [ ] Utilize Catagories
