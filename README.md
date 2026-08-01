@@ -7,37 +7,8 @@
 - Configure your Gamemode and Rank then run it to get your randomly selected tweaks!
 ## Contributing/Bug Reporting
 - If there is an issue or a mistake in Item Defintions, let me know via Issues or patch it yourself and send a PR.
-## Gamemodes Todo (COMPLETE)
-- [x] Bed Bridge Fight
-- [x] Four Way Bridge Fight
-- [x] Competitive Bridge
-- [x] Obstacle
-- [x] Sumo
-- [x] Sumo Duels
-- [x] Ground Duel
-- [x] Resource Collect
-- [x] Old Resource Collect
-- [x] Void Fight
-- [x] Stick Fight
-- [x] Party Games
-- [x] Beta Sumo
-- [x] Bow Fight
-- [x] Pearl Fight
-- [x] Bed Rush
-- [x] Ladder Fight
-- [x] Flat Fight
-- [x] Bedwars Normal
-- [x] Bedwars Late Game
-- [x] Bedwars Mega
-- [x] Bedwalls
-- [x] Ranked Fours Practice
-- [x] Bedwars Eight Team (Redo Item Defs)
-- [x] Bedwars Four Team (Redo Item Defs)
-- [x] Miniwars
-- [x] Bedwars Rush Duels
-- [x] Sky Conquer
-- [x] Autobox
-## Features to implement in the future
+## TODO
+- [x] Implement a functional randomizer for every gamemode
 - [ ] Combine Lists into one full list instead of one list per gamemode (As part of code optimization, just wanna get a fully working version with what I'm currently doing before I do.)
-- [ ] Utilize Catagories
 - [ ] GUI (Likely through TKinter)
+- [ ] Utilize Catagories
