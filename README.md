@@ -15,8 +15,8 @@
 - [x] Sumo
 - [x] Sumo Duels
 - [x] Ground Duel
-- [ ] Resource Collect
-- [ ] Old Resource Collect
+- [x] Resource Collect
+- [x] Old Resource Collect
 - [ ] Void Fight
 - [ ] Stick Fight
 - [ ] Party Games
