@@ -17,7 +17,7 @@
 - [x] Ground Duel
 - [x] Resource Collect
 - [x] Old Resource Collect
-- [ ] Void Fight
+- [x] Void Fight
 - [ ] Stick Fight
 - [ ] Party Games
 - [ ] Beta Sumo
